@@ -1,6 +1,5 @@
 package zerobase.weather.config;
 
-import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -14,6 +13,7 @@ import org.springframework.context.annotation.Configuration;
 //import springfox.documentation.spring.web.plugins.Docket;
 //import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+// springboot 3.x.x 에서 springfox swagger가 호환되지 않아 springdocs를 사용했습니다
 @Configuration
 //@EnableSwagger2
 public class SwaggerConfig {
